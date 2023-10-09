@@ -1,0 +1,13 @@
+export const DEFAULT_NAME = 'Hilto Demo';
+
+
+export const RESERVATION_STATUS={
+  START: 'START',
+  COMPLETED: 'COMPLETED',
+  CANCELED: 'CANCELED'
+}
+
+export const USER_TYPE={
+  GUEST: "GUEST",
+  EMPLOYEE: "EMPLOYEE"
+}

@@ -1,0 +1,9 @@
+// global.(css|less|sass|scss)
+// 这个文件不走 css modules，自动被引入，可以写一些全局样式，或者做一些样式覆盖。
+
+
+.ant-drawer-body{
+  .ant-layout-sider{
+    background: #fff;
+  }
+}
