@@ -7,7 +7,7 @@ export default defineConfig({
   model: {},
   dva: {},
   define: {
-    API_ROOT: 'https://hilton-backend.50d.top/',
+    API_ROOT: 'https://hilton-backend.50d.top',
     // API_PREFIX: '/api',
     API_PREFIX: '',
     GRAPHQL_PREFIX: '/graphql',
