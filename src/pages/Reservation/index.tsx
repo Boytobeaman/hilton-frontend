@@ -23,7 +23,7 @@ const ReservationQuery = gql`
       id: _id
       address
       name
-      reservations(filters: { user: { id: $id}, status:{ ne: $status} }){
+      reservations(filters: { user: $id, status:{ ne: $status} }){
         id: _id
         size
         expected_arrival_time

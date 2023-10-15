@@ -47,7 +47,6 @@ const LoginPage: React.FC = () => {
   });
 
   const onFinish = (values: any) => {
-    console.log('Success:', values);
     setErrorMsg('')
     // values.provider="local"
     toLogin({
